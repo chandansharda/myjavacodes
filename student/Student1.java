@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * @author ${chandan sharda}
+ *
+ */
 abstract class Student1
 {
     public String name;
