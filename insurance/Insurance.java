@@ -32,7 +32,7 @@ class Health extends Insurance
     @Override
     public void displayInfo()
     {
-        System.out.printf("InsuranceType : %s\nMonthly Price = %.2f\n", insuranceType, monthlyCost);
+        System.out.println("InsuranceType : "+insuranceType+"\nMonthly Price "= monthlyCost);
     }
 
 }
@@ -55,7 +55,7 @@ class Life extends Insurance
     @Override
     public void displayInfo()
     {
-        System.out.printf("InsuranceType : %s\n Monthly Price = %.2f\n", insuranceType, monthlyCost);
+        System.out.println("InsuranceType : "+insuranceType+"\nMonthly Price "= monthlyCost);
     }
 
 }
