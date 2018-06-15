@@ -1,0 +1,8 @@
+Mortgage – an abstract class that implements the MortgageConstants interface. A Mortgage includes a mortgage number, customer name, amount of mortgage, interest rate, and term.
+
+Don’t allow mortgage amounts over $300,000. Force any mortgage term that is not defined in the MortgageConstants interface to a short-term, one year loan. Create a getMortgageInfo method to display all the mortgage data.
+
+MortgageConstants – includes constant values for short-term (one year), medium-term (three years) and long-term (5 years) mortgages. It also contains constants for bank name and the maximum mortgage amount.
+BusinessMortgage – extends Mortgage. Its constructor sets the interest rate to 1% over the current prime rate.
+PersonalMortgage - extends Mortgage. Its constructor sets the interest rate to 2% over the current prime rate.
+ProcessMortgage – a main class that create an array of 3 mortgages. Prompt the user for the current interest rate. Then in a loop prompts the user for a mortgage type and all relevant information for that mortgage. Store the created Mortgage objects in the array. When data entry is complete, display all mortgages.

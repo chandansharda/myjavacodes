@@ -1,7 +1,6 @@
 import java.util.Scanner;
-
 /**
- * @author ${chandan sharda}
+ * @author ${chandan sharda , piyush sharma}
  *
  */
 abstract class Student1

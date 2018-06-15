@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author ${chandan sharda}
+ * @author ${chandan sharda , piyush sharma}
  *
  */
 
